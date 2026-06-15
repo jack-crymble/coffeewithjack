@@ -11,175 +11,13 @@
       href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Space+Grotesk:wght@400;500&display=swap"
       rel="stylesheet"
     />
-    <style>
-      :root {
-        --bg: #1b130e;
-        --bg-soft: #241a13;
-        --cream: #f4e9dc;
-        --cream-dim: #cdbba9;
-        --crema: #d9a25c;
-        --crema-soft: #8b5e3c;
-      }
-
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-      body {
-        min-height: 100vh;
-        background: radial-gradient(
-          circle at 50% -10%,
-          var(--bg-soft) 0%,
-          var(--bg) 55%
-        );
-        color: var(--cream);
-        font-family: "Space Grotesk", sans-serif;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 48px 20px;
-      }
-
-      .page {
-        width: 100%;
-        max-width: 380px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-      }
-
-      /* Profile photo with crema swirl ring */
-      .avatar-ring {
-        width: 112px;
-        height: 112px;
-        border-radius: 50%;
-        padding: 4px;
-        background: conic-gradient(
-          from 220deg,
-          var(--crema),
-          var(--crema-soft),
-          var(--bg-soft),
-          var(--crema)
-        );
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      .avatar {
-        width: 100%;
-        height: 100%;
-        border-radius: 50%;
-        background: var(--bg-soft);
-        overflow: hidden;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      .avatar img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        display: block;
-        transform: scale(1.9);
-        object-position: -17px 6px;
-      }
-
-      .avatar .placeholder {
-        font-family: "Fraunces", serif;
-        font-size: 2.4rem;
-        color: var(--crema);
-      }
-
-      /* Name + bio */
-      .name {
-        font-family: "Fraunces", serif;
-        font-weight: 600;
-        font-size: 1.9rem;
-        letter-spacing: 0.01em;
-        margin-top: 22px;
-      }
-
-      .bio {
-        color: var(--cream-dim);
-        font-size: 0.95rem;
-        line-height: 1.6;
-        margin-top: 10px;
-        max-width: 300px;
-      }
-
-      .bio .accent {
-        color: var(--crema);
-      }
-
-      /* Links */
-      .links {
-        width: 100%;
-        margin-top: 34px;
-        display: flex;
-        flex-direction: column;
-        gap: 12px;
-      }
-
-      .link {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-        width: 100%;
-        padding: 15px 20px;
-        border-radius: 999px;
-        border: 1px solid rgba(244, 233, 220, 0.14);
-        background: rgba(244, 233, 220, 0.03);
-        color: var(--cream);
-        text-decoration: none;
-        font-size: 0.98rem;
-        font-weight: 500;
-        letter-spacing: 0.02em;
-        transition:
-          border-color 0.2s ease,
-          background 0.2s ease,
-          transform 0.15s ease;
-      }
-
-      .link:hover,
-      .link:focus-visible {
-        border-color: var(--crema);
-        background: rgba(217, 162, 92, 0.08);
-        transform: translateY(-2px);
-      }
-
-      .link:focus-visible {
-        outline: 2px solid var(--crema);
-        outline-offset: 2px;
-      }
-
-      .link svg {
-        width: 18px;
-        height: 18px;
-        flex-shrink: 0;
-        stroke: var(--crema);
-      }
-
-      /* Footer */
-      .footer {
-        margin-top: 40px;
-        font-size: 0.78rem;
-        color: var(--crema-soft);
-        letter-spacing: 0.08em;
-        text-transform: uppercase;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
+
   <body>
     <main class="page">
       <div class="avatar-ring">
         <div class="avatar">
-          <!-- Replace src with your photo, e.g. "profile.jpg" -->
           <img
             src="profile.jpg"
             alt=""
@@ -194,7 +32,11 @@
 
       <h1 class="name">Coffee with Jack</h1>
 
-      <p class="bio">☕ Demystifying home coffee ☕</p>
+      <p class="bio">
+        ☕️ Demystifying home coffee </br>
+        🫘 Local bean guy </br>
+        ⌨️ Swapping code for coffee
+      </p>
 
       <nav class="links" aria-label="Social media links">
         <a
