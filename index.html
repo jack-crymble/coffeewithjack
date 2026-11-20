@@ -1,93 +1,119 @@
 <!doctype html>
 <html lang="en">
   <head>
-
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-5Y1464ZZGN"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-5Y1464ZZGN');
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-5Y1464ZZGN");
     </script>
     <!-- Google tag (gtag.js) End -->
 
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-N2L24HZG');</script>
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-N2L24HZG");
+    </script>
     <!-- End Google Tag Manager -->
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coffee with Jack</title>
+    <meta
+      name="description"
+      content="Demystifying home coffee — from local beans to better brews. Find Coffee with Jack on TikTok, Instagram, YouTube, and Facebook."
+    />
+    <meta property="og:title" content="Coffee with Jack" />
+    <meta
+      property="og:description"
+      content="Demystifying home coffee — from local beans to better brews. Engineer by day, coffee guy the rest of the time."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.coffeewithjack.com" />
+    <meta
+      property="og:image"
+      content="https://www.coffeewithjack.com/profile.jpg"
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Coffee with Jack" />
+    <meta
+      name="twitter:description"
+      content="Demystifying home coffee — from local beans to better brews."
+    />
     <link rel="icon" href="favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Space+Grotesk:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css?v=9" />
+    <script>
+      if ("scrollRestoration" in history) {
+        history.scrollRestoration = "manual";
+      }
+      window.addEventListener("pageshow", function () {
+        window.scrollTo(0, 0);
+      });
+    </script>
   </head>
 
   <body>
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N2L24HZG"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-N2L24HZG"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
     <!-- End Google Tag Manager (noscript) -->
+
     <main class="page">
-      <div class="avatar-ring">
-        <div class="avatar">
-          <img
-            src="profile.jpg"
-            alt=""
-            onerror="
-              this.style.display = 'none';
-              this.nextElementSibling.style.display = 'flex';
-            "
-          />
-          <span class="placeholder" style="display: none">JC</span>
+      <header class="identity">
+        <div class="avatar-ring">
+          <div class="avatar">
+            <img
+              src="profile.jpg"
+              alt="Jack, creator of Coffee with Jack"
+              width="108"
+              height="108"
+              onerror="
+                this.style.display = 'none';
+                this.nextElementSibling.style.display = 'flex';
+              "
+            />
+            <span class="placeholder" style="display: none">JC</span>
+          </div>
         </div>
-      </div>
 
-      <h1 class="name">Coffee with Jack</h1>
+        <h1 class="name">Coffee with Jack</h1>
 
-      <p class="bio">
-        ☕️ Demystifying home coffee </br>
-        🫘 Local bean guy </br>
-        ⌨️ Swapping code for coffee
-      </p>
+        <p class="bio">
+          Demystifying home coffee by helping you get the best out of your beans
+        </p>
+      </header>
 
+      <!-- When the ebook launches, move this section above .links -->
       <nav class="links" aria-label="Social media links">
         <a
-          class="link"
-          href="https://www.tiktok.com/@coffee_with_jack"
-          target="_blank"
-          rel="noopener"
-        >
-          <svg
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke-width="1.8"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <path d="M13 3v11.5a3.5 3.5 0 1 1-3.5-3.5" />
-            <path d="M13 3a5 5 0 0 0 5 5" />
-            <path d="M18 8v3a8 8 0 0 1-5-2" />
-          </svg>
-          TikTok
-        </a>
-
-        <a
-          class="link"
+          class="social social--primary"
           href="https://www.instagram.com/coffee_with_jack"
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
         >
           <svg
             viewBox="0 0 24 24"
@@ -95,6 +121,7 @@
             stroke-width="1.8"
             stroke-linecap="round"
             stroke-linejoin="round"
+            aria-hidden="true"
           >
             <rect x="3" y="3" width="18" height="18" rx="5" />
             <circle cx="12" cy="12" r="3.5" />
@@ -106,14 +133,14 @@
               stroke="none"
             />
           </svg>
-          Instagram
+          <span>Instagram</span>
         </a>
 
         <a
-          class="link"
-          href="https://www.youtube.com/@coffee_with_jack"
+          class="social"
+          href="https://www.tiktok.com/@coffee_with_jack"
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
         >
           <svg
             viewBox="0 0 24 24"
@@ -121,6 +148,28 @@
             stroke-width="1.8"
             stroke-linecap="round"
             stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <path d="M13 3v11.5a3.5 3.5 0 1 1-3.5-3.5" />
+            <path d="M13 3a5 5 0 0 0 5 5" />
+            <path d="M18 8v3a8 8 0 0 1-5-2" />
+          </svg>
+          <span>TikTok</span>
+        </a>
+
+        <a
+          class="social"
+          href="https://www.youtube.com/@coffee_with_jack"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke-width="1.8"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
           >
             <rect x="2.5" y="5.5" width="19" height="13" rx="4" />
             <path
@@ -129,14 +178,14 @@
               stroke="none"
             />
           </svg>
-          YouTube
+          <span>YouTube</span>
         </a>
 
         <a
-          class="link"
+          class="social"
           href="https://www.facebook.com/coffeewithjackofficial"
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
         >
           <svg
             viewBox="0 0 24 24"
@@ -144,14 +193,24 @@
             stroke-width="1.8"
             stroke-linecap="round"
             stroke-linejoin="round"
+            aria-hidden="true"
           >
             <path
               d="M15 4h-2a3 3 0 0 0-3 3v3H7v3h3v7h3v-7h2.5l.5-3H13V7a1 1 0 0 1 1-1h1z"
             />
           </svg>
-          Facebook
+          <span>Facebook</span>
         </a>
       </nav>
+
+      <section class="section ebook" aria-labelledby="ebook-heading">
+        <h2 id="ebook-heading" class="section-title">Home coffee guide ebook</h2>
+        <p class="section-copy">
+          Guide to pulling better espresso at home.
+        </p>
+        <span class="cta cta--soon" aria-disabled="true">Coming soon</span>
+      </section>
+
     </main>
   </body>
 </html>

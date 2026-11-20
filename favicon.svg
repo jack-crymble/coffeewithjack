@@ -1,3 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg">
-  <text y="32" font-size="32">☕</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="8" fill="#2f5d45"/>
+  <ellipse
+    cx="16"
+    cy="16"
+    rx="7"
+    ry="10"
+    fill="none"
+    stroke="#f4f6f2"
+    stroke-width="1.6"
+    transform="rotate(-28 16 16)"
+  />
+  <path
+    d="M14.5 8.5c1.4 4 1.4 11.5-0.6 15.5"
+    fill="none"
+    stroke="#f4f6f2"
+    stroke-width="1.4"
+    stroke-linecap="round"
+    transform="rotate(-28 16 16)"
+  />
 </svg>
